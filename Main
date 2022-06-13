@@ -1,8 +1,6 @@
-
+-- Instances:
 
 local Cracked_X = Instance.new("ScreenGui")
-Cracked_X.Name = math.random()
-Cracked_X.Parent = game.CoreGui
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local NavigationBar = Instance.new("Frame")
@@ -334,6 +332,7 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderColor3 = Color3.fromRGB(39, 39, 39)
 ScrollingFrame.Position = UDim2.new(0.154471546, 0, 0.143302187, 0)
 ScrollingFrame.Size = UDim2.new(0, 408, 0, 275)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 450)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
 ScrollingFrame.ScrollBarThickness = 5
 
@@ -1196,6 +1195,7 @@ do -- Cracked_X.ModuleScript
 				MainPart.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 				MainPart.Position = UDim2.new(0.725822449, 0, 0.85424298, 0)
 				MainPart.Position = UDim2.new(0.726, 0,0.961, 0)
+				MainPart.Position = MainPart.Position+UDim2.new(0,8,0,0)
 				MainPart.Size = UDim2.new(0, 220, 0, 87)
 		
 				TopTitle.Name = "TopTitle"
@@ -1375,7 +1375,7 @@ end
 
 -- Scripts:
 
-local function OLDXV_fake_script() -- SettingsB.something 
+local function TFJIL_fake_script() -- SettingsB.something 
 	local script = Instance.new('LocalScript', SettingsB)
 	local req = require
 	local require = function(obj)
@@ -1400,8 +1400,8 @@ local function OLDXV_fake_script() -- SettingsB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(OLDXV_fake_script)()
-local function IPNKGYU_fake_script() -- HomeB.something 
+coroutine.wrap(TFJIL_fake_script)()
+local function ICUPDC_fake_script() -- HomeB.something 
 	local script = Instance.new('LocalScript', HomeB)
 	local req = require
 	local require = function(obj)
@@ -1426,8 +1426,8 @@ local function IPNKGYU_fake_script() -- HomeB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(IPNKGYU_fake_script)()
-local function FBDL_fake_script() -- NavigationBar.LocalScript 
+coroutine.wrap(ICUPDC_fake_script)()
+local function LYCMZK_fake_script() -- NavigationBar.LocalScript 
 	local script = Instance.new('LocalScript', NavigationBar)
 	local req = require
 	local require = function(obj)
@@ -1448,8 +1448,8 @@ local function FBDL_fake_script() -- NavigationBar.LocalScript
 	wait()
 	
 end
-coroutine.wrap(FBDL_fake_script)()
-local function GOCYQZ_fake_script() -- ScriptsB.something 
+coroutine.wrap(LYCMZK_fake_script)()
+local function JNYIM_fake_script() -- ScriptsB.something 
 	local script = Instance.new('LocalScript', ScriptsB)
 	local req = require
 	local require = function(obj)
@@ -1474,8 +1474,8 @@ local function GOCYQZ_fake_script() -- ScriptsB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(GOCYQZ_fake_script)()
-local function HZCQUC_fake_script() -- CreditsB.something 
+coroutine.wrap(JNYIM_fake_script)()
+local function PLJGE_fake_script() -- CreditsB.something 
 	local script = Instance.new('LocalScript', CreditsB)
 	local req = require
 	local require = function(obj)
@@ -1500,8 +1500,8 @@ local function HZCQUC_fake_script() -- CreditsB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(HZCQUC_fake_script)()
-local function LNEFEPA_fake_script() -- PlayersInGAMEB.something 
+coroutine.wrap(PLJGE_fake_script)()
+local function RPSZ_fake_script() -- PlayersInGAMEB.something 
 	local script = Instance.new('LocalScript', PlayersInGAMEB)
 	local req = require
 	local require = function(obj)
@@ -1526,8 +1526,8 @@ local function LNEFEPA_fake_script() -- PlayersInGAMEB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(LNEFEPA_fake_script)()
-local function RZBG_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(RPSZ_fake_script)()
+local function JCPQOU_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 	local req = require
 	local require = function(obj)
@@ -1543,8 +1543,8 @@ local function RZBG_fake_script() -- TextLabel.LocalScript
 	
 	script.Parent.Text = "@" .. Username
 end
-coroutine.wrap(RZBG_fake_script)()
-local function IDVKGR_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(JCPQOU_fake_script)()
+local function FJQBHO_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 	local req = require
 	local require = function(obj)
@@ -1559,8 +1559,8 @@ local function IDVKGR_fake_script() -- TextLabel_2.LocalScript
 	
 	script.Parent.Text = GetName.Name
 end
-coroutine.wrap(IDVKGR_fake_script)()
-local function NBFJT_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(FJQBHO_fake_script)()
+local function SRZPIA_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 	local req = require
 	local require = function(obj)
@@ -1584,8 +1584,8 @@ local function NBFJT_fake_script() -- TextLabel_3.LocalScript
 	
 	Type(script.Parent,"Welcome, " .. DisplayUsername,0.05)
 end
-coroutine.wrap(NBFJT_fake_script)()
-local function UMERZX_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(SRZPIA_fake_script)()
+local function QSGQN_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 	local req = require
 	local require = function(obj)
@@ -1611,8 +1611,8 @@ local function UMERZX_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 100, 0, 100)
 end
-coroutine.wrap(UMERZX_fake_script)()
-local function PCXBDLC_fake_script() -- Main.LocalScript 
+coroutine.wrap(QSGQN_fake_script)()
+local function FGLRY_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -1668,8 +1668,8 @@ local function PCXBDLC_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PCXBDLC_fake_script)()
-local function KYVLWB_fake_script() -- Respawn.Script 
+coroutine.wrap(FGLRY_fake_script)()
+local function BCIB_fake_script() -- Respawn.Script 
 	local script = Instance.new('LocalScript', Respawn)
 	local req = require
 	local require = function(obj)
@@ -1688,8 +1688,8 @@ local function KYVLWB_fake_script() -- Respawn.Script
 	end)
 	
 end
-coroutine.wrap(KYVLWB_fake_script)()
-local function TVSHGWA_fake_script() -- Walkspeedchanger.Script 
+coroutine.wrap(BCIB_fake_script)()
+local function APTQS_fake_script() -- Walkspeedchanger.Script 
 	local script = Instance.new('LocalScript', Walkspeedchanger)
 	local req = require
 	local require = function(obj)
@@ -1708,8 +1708,8 @@ local function TVSHGWA_fake_script() -- Walkspeedchanger.Script
 		plr.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = tonumber(walkspeed)
 	end)
 end
-coroutine.wrap(TVSHGWA_fake_script)()
-local function LCPI_fake_script() -- Sit.Script 
+coroutine.wrap(APTQS_fake_script)()
+local function TGAKJ_fake_script() -- Sit.Script 
 	local script = Instance.new('LocalScript', Sit)
 	local req = require
 	local require = function(obj)
@@ -1727,8 +1727,8 @@ local function LCPI_fake_script() -- Sit.Script
 		plr.Character.Humanoid.Sit = true
 	end)
 end
-coroutine.wrap(LCPI_fake_script)()
-local function TYKDU_fake_script() -- Godmode.Script 
+coroutine.wrap(TGAKJ_fake_script)()
+local function PKXB_fake_script() -- Godmode.Script 
 	local script = Instance.new('LocalScript', Godmode)
 	local req = require
 	local require = function(obj)
@@ -1752,8 +1752,8 @@ local function TYKDU_fake_script() -- Godmode.Script
 		end
 	end)
 end
-coroutine.wrap(TYKDU_fake_script)()
-local function MCENMSV_fake_script() -- JumpPowerchanger.Script 
+coroutine.wrap(PKXB_fake_script)()
+local function KNRQJ_fake_script() -- JumpPowerchanger.Script 
 	local script = Instance.new('LocalScript', JumpPowerchanger)
 	local req = require
 	local require = function(obj)
@@ -1768,8 +1768,8 @@ local function MCENMSV_fake_script() -- JumpPowerchanger.Script
 		game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").JumpPower = script.Parent.Parent.jumppower.Text
 	end)
 end
-coroutine.wrap(MCENMSV_fake_script)()
-local function KYGYPS_fake_script() -- Goto.Script 
+coroutine.wrap(KNRQJ_fake_script)()
+local function AZUYMTW_fake_script() -- Goto.Script 
 	local script = Instance.new('LocalScript', Goto)
 	local req = require
 	local require = function(obj)
@@ -1789,8 +1789,8 @@ local function KYGYPS_fake_script() -- Goto.Script
 	end)
 	
 end
-coroutine.wrap(KYGYPS_fake_script)()
-local function LBINCES_fake_script() -- AutoRespawn.Script 
+coroutine.wrap(AZUYMTW_fake_script)()
+local function TNRRUX_fake_script() -- AutoRespawn.Script 
 	local script = Instance.new('LocalScript', AutoRespawn)
 	local req = require
 	local require = function(obj)
@@ -1812,8 +1812,8 @@ local function LBINCES_fake_script() -- AutoRespawn.Script
 		end
 	end)
 end
-coroutine.wrap(LBINCES_fake_script)()
-local function YUCG_fake_script() -- Fling.Script 
+coroutine.wrap(TNRRUX_fake_script)()
+local function ZRAV_fake_script() -- Fling.Script 
 	local script = Instance.new('LocalScript', Fling)
 	local req = require
 	local require = function(obj)
@@ -1866,8 +1866,8 @@ local function YUCG_fake_script() -- Fling.Script
 		end)
 	end)
 end
-coroutine.wrap(YUCG_fake_script)()
-local function DBIB_fake_script() -- noclip.Script 
+coroutine.wrap(ZRAV_fake_script)()
+local function CYKNF_fake_script() -- noclip.Script 
 	local script = Instance.new('LocalScript', noclip)
 	local req = require
 	local require = function(obj)
@@ -1904,8 +1904,8 @@ local function DBIB_fake_script() -- noclip.Script
 	end)
 	
 end
-coroutine.wrap(DBIB_fake_script)()
-local function KMZJT_fake_script() -- Rejoin.Script 
+coroutine.wrap(CYKNF_fake_script)()
+local function ZZKPIL_fake_script() -- Rejoin.Script 
 	local script = Instance.new('LocalScript', Rejoin)
 	local req = require
 	local require = function(obj)
@@ -1921,8 +1921,8 @@ local function KMZJT_fake_script() -- Rejoin.Script
 		game:GetService('TeleportService'):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(KMZJT_fake_script)()
-local function BTUBZ_fake_script() -- ServerHop.LocalScript 
+coroutine.wrap(ZZKPIL_fake_script)()
+local function OGZIRH_fake_script() -- ServerHop.LocalScript 
 	local script = Instance.new('LocalScript', ServerHop)
 	local req = require
 	local require = function(obj)
@@ -1947,8 +1947,8 @@ local function BTUBZ_fake_script() -- ServerHop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BTUBZ_fake_script)()
-local function DZSLG_fake_script() -- fly.Script 
+coroutine.wrap(OGZIRH_fake_script)()
+local function GIZY_fake_script() -- fly.Script 
 	local script = Instance.new('LocalScript', fly)
 	local req = require
 	local require = function(obj)
@@ -2072,8 +2072,8 @@ local function DZSLG_fake_script() -- fly.Script
 	end)
 	
 end
-coroutine.wrap(DZSLG_fake_script)()
-local function DGWOK_fake_script() -- Bring.Script 
+coroutine.wrap(GIZY_fake_script)()
+local function TAVV_fake_script() -- Bring.Script 
 	local script = Instance.new('LocalScript', Bring)
 	local req = require
 	local require = function(obj)
@@ -2124,8 +2124,8 @@ local function DGWOK_fake_script() -- Bring.Script
 	end)
 	
 end
-coroutine.wrap(DGWOK_fake_script)()
-local function WAFJGLA_fake_script() -- F3X.Script 
+coroutine.wrap(TAVV_fake_script)()
+local function XQLRBS_fake_script() -- F3X.Script 
 	local script = Instance.new('LocalScript', F3X)
 	local req = require
 	local require = function(obj)
@@ -2144,8 +2144,8 @@ local function WAFJGLA_fake_script() -- F3X.Script
 		loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 	end)
 end
-coroutine.wrap(WAFJGLA_fake_script)()
-local function YAJJ_fake_script() -- Antiafk.Script 
+coroutine.wrap(XQLRBS_fake_script)()
+local function RUEC_fake_script() -- Antiafk.Script 
 	local script = Instance.new('LocalScript', Antiafk)
 	local req = require
 	local require = function(obj)
@@ -2169,8 +2169,8 @@ local function YAJJ_fake_script() -- Antiafk.Script
 		end
 	end)
 end
-coroutine.wrap(YAJJ_fake_script)()
-local function KJGY_fake_script() -- vehiclenoclip.Script 
+coroutine.wrap(RUEC_fake_script)()
+local function DSCLMOL_fake_script() -- vehiclenoclip.Script 
 	local script = Instance.new('LocalScript', vehiclenoclip)
 	local req = require
 	local require = function(obj)
@@ -2249,8 +2249,8 @@ local function KJGY_fake_script() -- vehiclenoclip.Script
 	end)
 	
 end
-coroutine.wrap(KJGY_fake_script)()
-local function MJCI_fake_script() -- Discord.Script 
+coroutine.wrap(DSCLMOL_fake_script)()
+local function IHXW_fake_script() -- Discord.Script 
 	local script = Instance.new('LocalScript', Discord)
 	local req = require
 	local require = function(obj)
@@ -2289,8 +2289,8 @@ local function MJCI_fake_script() -- Discord.Script
 		end
 	end)
 end
-coroutine.wrap(MJCI_fake_script)()
-local function ARCPCB_fake_script() -- ViewPlayer.Script 
+coroutine.wrap(IHXW_fake_script)()
+local function KDJCRO_fake_script() -- ViewPlayer.Script 
 	local script = Instance.new('LocalScript', ViewPlayer)
 	local req = require
 	local require = function(obj)
@@ -2316,8 +2316,8 @@ local function ARCPCB_fake_script() -- ViewPlayer.Script
 		end
 	end)
 end
-coroutine.wrap(ARCPCB_fake_script)()
-local function QAYR_fake_script() -- Creeper.Script 
+coroutine.wrap(KDJCRO_fake_script)()
+local function VKOWQUA_fake_script() -- Creeper.Script 
 	local script = Instance.new('LocalScript', Creeper)
 	local req = require
 	local require = function(obj)
@@ -2357,8 +2357,8 @@ local function QAYR_fake_script() -- Creeper.Script
 		end
 	end)
 end
-coroutine.wrap(QAYR_fake_script)()
-local function XXCOG_fake_script() -- BH.Script 
+coroutine.wrap(VKOWQUA_fake_script)()
+local function VSXMH_fake_script() -- BH.Script 
 	local script = Instance.new('LocalScript', BH)
 	local req = require
 	local require = function(obj)
@@ -2382,8 +2382,8 @@ local function XXCOG_fake_script() -- BH.Script
 	
 	
 end
-coroutine.wrap(XXCOG_fake_script)()
-local function IALV_fake_script() -- BlockHead.Script 
+coroutine.wrap(VSXMH_fake_script)()
+local function EWOXBT_fake_script() -- BlockHead.Script 
 	local script = Instance.new('LocalScript', BlockHead)
 	local req = require
 	local require = function(obj)
@@ -2403,8 +2403,8 @@ local function IALV_fake_script() -- BlockHead.Script
 	
 	
 end
-coroutine.wrap(IALV_fake_script)()
-local function NWYNH_fake_script() -- Print.Script 
+coroutine.wrap(EWOXBT_fake_script)()
+local function DDLMWZ_fake_script() -- Print.Script 
 	local script = Instance.new('LocalScript', Print)
 	local req = require
 	local require = function(obj)
@@ -2418,10 +2418,12 @@ local function NWYNH_fake_script() -- Print.Script
 	script.Parent.MouseButton1Click:Connect(function()
 		local TXT = script.Parent.Parent.PrintTXT.Text
 		print(TXT)
+		local e = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+		e.Notification("Printed the Position Press F9 to view or SHIFT+F9",5)
 	end)
 end
-coroutine.wrap(NWYNH_fake_script)()
-local function AJVJN_fake_script() -- swim.Script 
+coroutine.wrap(DDLMWZ_fake_script)()
+local function CILCTV_fake_script() -- swim.Script 
 	local script = Instance.new('LocalScript', swim)
 	local req = require
 	local require = function(obj)
@@ -2496,8 +2498,8 @@ local function AJVJN_fake_script() -- swim.Script
 	
 	
 end
-coroutine.wrap(AJVJN_fake_script)()
-local function VUANEZB_fake_script() -- Esp.Script 
+coroutine.wrap(CILCTV_fake_script)()
+local function QAVK_fake_script() -- Esp.Script 
 	local script = Instance.new('LocalScript', Esp)
 	local req = require
 	local require = function(obj)
@@ -2568,8 +2570,8 @@ local function VUANEZB_fake_script() -- Esp.Script
 	end)
 	
 end
-coroutine.wrap(VUANEZB_fake_script)()
-local function FSAID_fake_script() -- PrintALLplrs.Script 
+coroutine.wrap(QAVK_fake_script)()
+local function RUBQMF_fake_script() -- PrintALLplrs.Script 
 	local script = Instance.new('LocalScript', PrintALLplrs)
 	local req = require
 	local require = function(obj)
@@ -2589,8 +2591,8 @@ local function FSAID_fake_script() -- PrintALLplrs.Script
 	end)
 	
 end
-coroutine.wrap(FSAID_fake_script)()
-local function XAOWEC_fake_script() -- Reset.Script 
+coroutine.wrap(RUBQMF_fake_script)()
+local function RLJI_fake_script() -- Reset.Script 
 	local script = Instance.new('LocalScript', Reset)
 	local req = require
 	local require = function(obj)
@@ -2607,8 +2609,8 @@ local function XAOWEC_fake_script() -- Reset.Script
 		end)
 	end)
 end
-coroutine.wrap(XAOWEC_fake_script)()
-local function NHQLRKN_fake_script() -- Light.Script 
+coroutine.wrap(RLJI_fake_script)()
+local function XYKWCPE_fake_script() -- Light.Script 
 	local script = Instance.new('LocalScript', Light)
 	local req = require
 	local require = function(obj)
@@ -2646,8 +2648,8 @@ local function NHQLRKN_fake_script() -- Light.Script
 	end)
 	
 end
-coroutine.wrap(NHQLRKN_fake_script)()
-local function CSOIHW_fake_script() -- NoFog.Script 
+coroutine.wrap(XYKWCPE_fake_script)()
+local function HIIROXI_fake_script() -- NoFog.Script 
 	local script = Instance.new('LocalScript', NoFog)
 	local req = require
 	local require = function(obj)
@@ -2691,8 +2693,8 @@ local function CSOIHW_fake_script() -- NoFog.Script
 	end)
 	
 end
-coroutine.wrap(CSOIHW_fake_script)()
-local function VGZTMZ_fake_script() -- Day.Script 
+coroutine.wrap(HIIROXI_fake_script)()
+local function SBAP_fake_script() -- Day.Script 
 	local script = Instance.new('LocalScript', Day)
 	local req = require
 	local require = function(obj)
@@ -2709,8 +2711,8 @@ local function VGZTMZ_fake_script() -- Day.Script
 		end)
 	end)
 end
-coroutine.wrap(VGZTMZ_fake_script)()
-local function SRUM_fake_script() -- NIght.Script 
+coroutine.wrap(SBAP_fake_script)()
+local function RMQUM_fake_script() -- NIght.Script 
 	local script = Instance.new('LocalScript', NIght)
 	local req = require
 	local require = function(obj)
@@ -2727,8 +2729,8 @@ local function SRUM_fake_script() -- NIght.Script
 		end)
 	end)
 end
-coroutine.wrap(SRUM_fake_script)()
-local function JUHGQ_fake_script() -- CopyPos.Script 
+coroutine.wrap(RMQUM_fake_script)()
+local function XJXY_fake_script() -- CopyPos.Script 
 	local script = Instance.new('LocalScript', CopyPos)
 	local req = require
 	local require = function(obj)
@@ -2744,13 +2746,14 @@ local function JUHGQ_fake_script() -- CopyPos.Script
 		local GotPos = mod.GetPosition(script.Parent.Parent.PositionplrTXT.Text,"position")
 		if GotPos ~= nil then
 			local pos = GotPos
-			toclipboard(pos)
+			mod.Notification("Position has been copied to your clipboard",4.5)
+			setclipboard(tostring(pos))
 		end
 	end)
 	
 end
-coroutine.wrap(JUHGQ_fake_script)()
-local function UTLFV_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(XJXY_fake_script)()
+local function AMLVT_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 	local req = require
 	local require = function(obj)
@@ -2783,8 +2786,8 @@ local function UTLFV_fake_script() -- ScrollingFrame.LocalScript
 		end
 	end
 end
-coroutine.wrap(UTLFV_fake_script)()
-local function VYVKQI_fake_script() -- NetBypass.Script 
+coroutine.wrap(AMLVT_fake_script)()
+local function KEXPAZT_fake_script() -- NetBypass.Script 
 	local script = Instance.new('LocalScript', NetBypass)
 	local req = require
 	local require = function(obj)
@@ -2810,8 +2813,8 @@ local function VYVKQI_fake_script() -- NetBypass.Script
 		end
 	end)
 end
-coroutine.wrap(VYVKQI_fake_script)()
-local function MGUFY_fake_script() -- Close.LocalScript 
+coroutine.wrap(KEXPAZT_fake_script)()
+local function WZZOEM_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 	local req = require
 	local require = function(obj)
@@ -2839,8 +2842,8 @@ local function MGUFY_fake_script() -- Close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MGUFY_fake_script)()
-local function SWBXK_fake_script() -- ScrollingFrame_2.LocalScript 
+coroutine.wrap(WZZOEM_fake_script)()
+local function NSOJIEU_fake_script() -- ScrollingFrame_2.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame_2)
 	local req = require
 	local require = function(obj)
@@ -2885,8 +2888,8 @@ local function SWBXK_fake_script() -- ScrollingFrame_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SWBXK_fake_script)()
-local function MSMM_fake_script() -- Player.LocalScript 
+coroutine.wrap(NSOJIEU_fake_script)()
+local function GBUVQ_fake_script() -- Player.LocalScript 
 	local script = Instance.new('LocalScript', Player)
 	local req = require
 	local require = function(obj)
@@ -2901,8 +2904,8 @@ local function MSMM_fake_script() -- Player.LocalScript
 		toclipboard(script.Parent.Text)
 	end)
 end
-coroutine.wrap(MSMM_fake_script)()
-local function YWTYX_fake_script() -- Check.LocalScript 
+coroutine.wrap(GBUVQ_fake_script)()
+local function ROFKJ_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 	local req = require
 	local require = function(obj)
@@ -2955,8 +2958,8 @@ local function YWTYX_fake_script() -- Check.LocalScript
 	end)
 	
 end
-coroutine.wrap(YWTYX_fake_script)()
-local function DSIS_fake_script() -- KeyFrame.LocalScript 
+coroutine.wrap(ROFKJ_fake_script)()
+local function GVZP_fake_script() -- KeyFrame.LocalScript 
 	local script = Instance.new('LocalScript', KeyFrame)
 	local req = require
 	local require = function(obj)
@@ -3009,8 +3012,8 @@ local function DSIS_fake_script() -- KeyFrame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DSIS_fake_script)()
-local function ECGG_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(GVZP_fake_script)()
+local function WRRKHQ_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 	local req = require
 	local require = function(obj)
@@ -3029,8 +3032,8 @@ local function ECGG_fake_script() -- Close_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ECGG_fake_script)()
-local function TZZE_fake_script() -- Cracked_X.WhiteListAndSetup 
+coroutine.wrap(WRRKHQ_fake_script)()
+local function WIFXUG_fake_script() -- Cracked_X.WhiteListAndSetup 
 	local script = Instance.new('LocalScript', Cracked_X)
 	local req = require
 	local require = function(obj)
@@ -3068,4 +3071,4 @@ local function TZZE_fake_script() -- Cracked_X.WhiteListAndSetup
 	end
 	
 end
-coroutine.wrap(TZZE_fake_script)()
+coroutine.wrap(WIFXUG_fake_script)()
