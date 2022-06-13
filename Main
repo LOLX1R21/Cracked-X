@@ -1,6 +1,6 @@
--- Instances:
-
 local Cracked_X = Instance.new("ScreenGui")
+Cracked_X.Name = math.random()
+Cracked_X.Parent = game.CoreGui
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local NavigationBar = Instance.new("Frame")
