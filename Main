@@ -1,151 +1,152 @@
-local Cracked_X = Instance.new("ScreenGui")
-Cracked_X.Name = math.random()
-Cracked_X.Parent = game.CoreGui
-local Main = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local NavigationBar = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
-local SettingsB = Instance.new("ImageButton")
-local UICorner_3 = Instance.new("UICorner")
-local HomeB = Instance.new("ImageButton")
-local UICorner_4 = Instance.new("UICorner")
-local ScriptsB = Instance.new("ImageButton")
-local UICorner_5 = Instance.new("UICorner")
-local CreditsB = Instance.new("ImageButton")
-local UICorner_6 = Instance.new("UICorner")
-local PlayersInGAMEB = Instance.new("ImageButton")
-local UICorner_7 = Instance.new("UICorner")
-local home = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local ImageLabel = Instance.new("ImageLabel")
-local UICorner_8 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local CrackedXwatermark = Instance.new("ImageLabel")
-local Settings = Instance.new("Frame")
-local TextLabel_5 = Instance.new("TextLabel")
-local Scripts = Instance.new("Frame")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local Respawn = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local Walkspeedchanger = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local Sit = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local Godmode = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local JumpPowerchanger = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local Goto = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local BringPlayerTXT = Instance.new("TextBox")
-local UICorner_15 = Instance.new("UICorner")
-local jumppower = Instance.new("TextBox")
-local UICorner_16 = Instance.new("UICorner")
-local AutoRespawn = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Walkspeed = Instance.new("TextBox")
-local UICorner_18 = Instance.new("UICorner")
-local Fling = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local noclip = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local Rejoin = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local ServerHop = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local fly = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local Bring = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local Gotoplayer = Instance.new("TextBox")
-local UICorner_25 = Instance.new("UICorner")
-local F3X = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local Antiafk = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local vehiclenoclip = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
-local Discord = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local ViewPlayer = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local ViewTXT = Instance.new("TextBox")
-local UICorner_31 = Instance.new("UICorner")
-local Creeper = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local BH = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local BlockHead = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local Print = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
-local swim = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
-local PrintTXT = Instance.new("TextBox")
-local UICorner_37 = Instance.new("UICorner")
-local Esp = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
-local PrintALLplrs = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
-local Reset = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local Light = Instance.new("TextButton")
-local UICorner_41 = Instance.new("UICorner")
-local NoFog = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
-local Day = Instance.new("TextButton")
-local UICorner_43 = Instance.new("UICorner")
-local NIght = Instance.new("TextButton")
-local UICorner_44 = Instance.new("UICorner")
-local CopyPos = Instance.new("TextButton")
-local UICorner_45 = Instance.new("UICorner")
-local PositionplrTXT = Instance.new("TextBox")
-local UICorner_46 = Instance.new("UICorner")
-local NetBypass = Instance.new("TextButton")
-local UICorner_47 = Instance.new("UICorner")
-local Credits = Instance.new("Frame")
-local TextLabel_6 = Instance.new("TextLabel")
-local TextLabel_7 = Instance.new("TextLabel")
-local UICorner_48 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local TextLabel_9 = Instance.new("TextLabel")
-local UICorner_49 = Instance.new("UICorner")
-local TextLabel_10 = Instance.new("TextLabel")
-local Top = Instance.new("Frame")
-local UICorner_50 = Instance.new("UICorner")
-local Close = Instance.new("TextButton")
-local UICorner_51 = Instance.new("UICorner")
-local ScriptTitle = Instance.new("TextLabel")
-local Version = Instance.new("TextLabel")
-local PlayersInGame = Instance.new("Frame")
-local ScrollingFrame_2 = Instance.new("ScrollingFrame")
-local UICorner_52 = Instance.new("UICorner")
-local UIListLayout = Instance.new("UIListLayout")
-local Player = Instance.new("TextButton")
-local UICorner_53 = Instance.new("UICorner")
-local KeyFrame = Instance.new("Frame")
-local TextLabel_11 = Instance.new("TextLabel")
-local UICorner_54 = Instance.new("UICorner")
-local Check = Instance.new("TextButton")
-local UICorner_55 = Instance.new("UICorner")
-local key = Instance.new("TextBox")
-local UICorner_56 = Instance.new("UICorner")
-local UICorner_57 = Instance.new("UICorner")
-local Close_2 = Instance.new("TextButton")
-local UICorner_58 = Instance.new("UICorner")
+
+do
+	Cracked_X = Instance.new("ScreenGui")
+	Main = Instance.new("Frame")
+	UICorner = Instance.new("UICorner")
+	NavigationBar = Instance.new("Frame")
+	UICorner_2 = Instance.new("UICorner")
+	SettingsB = Instance.new("ImageButton")
+	UICorner_3 = Instance.new("UICorner")
+	HomeB = Instance.new("ImageButton")
+	UICorner_4 = Instance.new("UICorner")
+	ScriptsB = Instance.new("ImageButton")
+	UICorner_5 = Instance.new("UICorner")
+	CreditsB = Instance.new("ImageButton")
+	UICorner_6 = Instance.new("UICorner")
+	PlayersInGAMEB = Instance.new("ImageButton")
+	UICorner_7 = Instance.new("UICorner")
+	home = Instance.new("Frame")
+	TextLabel = Instance.new("TextLabel")
+	TextLabel_2 = Instance.new("TextLabel")
+	TextLabel_3 = Instance.new("TextLabel")
+	ImageLabel = Instance.new("ImageLabel")
+	UICorner_8 = Instance.new("UICorner")
+	TextLabel_4 = Instance.new("TextLabel")
+	CrackedXwatermark = Instance.new("ImageLabel")
+	Settings = Instance.new("Frame")
+	Themes = Instance.new("TextLabel")
+	Black = Instance.new("TextButton")
+	UICorner_9 = Instance.new("UICorner")
+	Gray = Instance.new("TextButton")
+	UICorner_10 = Instance.new("UICorner")
+	Yellow = Instance.new("TextButton")
+	UICorner_11 = Instance.new("UICorner")
+	Normal = Instance.new("TextButton")
+	UICorner_12 = Instance.new("UICorner")
+	Scripts = Instance.new("Frame")
+	ScrollingFrame = Instance.new("ScrollingFrame")
+	Respawn = Instance.new("TextButton")
+	UICorner_13 = Instance.new("UICorner")
+	Walkspeedchanger = Instance.new("TextButton")
+	UICorner_14 = Instance.new("UICorner")
+	Sit = Instance.new("TextButton")
+	UICorner_15 = Instance.new("UICorner")
+	Godmode = Instance.new("TextButton")
+	UICorner_16 = Instance.new("UICorner")
+	JumpPowerchanger = Instance.new("TextButton")
+	UICorner_17 = Instance.new("UICorner")
+	Goto = Instance.new("TextButton")
+	UICorner_18 = Instance.new("UICorner")
+	BringPlayerTXT = Instance.new("TextBox")
+	UICorner_19 = Instance.new("UICorner")
+	jumppower = Instance.new("TextBox")
+	UICorner_20 = Instance.new("UICorner")
+	AutoRespawn = Instance.new("TextButton")
+	UICorner_21 = Instance.new("UICorner")
+	Walkspeed = Instance.new("TextBox")
+	UICorner_22 = Instance.new("UICorner")
+	Fling = Instance.new("TextButton")
+	UICorner_23 = Instance.new("UICorner")
+	noclip = Instance.new("TextButton")
+	UICorner_24 = Instance.new("UICorner")
+	Rejoin = Instance.new("TextButton")
+	UICorner_25 = Instance.new("UICorner")
+	ServerHop = Instance.new("TextButton")
+	UICorner_26 = Instance.new("UICorner")
+	fly = Instance.new("TextButton")
+	UICorner_27 = Instance.new("UICorner")
+	Bring = Instance.new("TextButton")
+	UICorner_28 = Instance.new("UICorner")
+	Gotoplayer = Instance.new("TextBox")
+	UICorner_29 = Instance.new("UICorner")
+	F3X = Instance.new("TextButton")
+	UICorner_30 = Instance.new("UICorner")
+	Antiafk = Instance.new("TextButton")
+	UICorner_31 = Instance.new("UICorner")
+	vehiclenoclip = Instance.new("TextButton")
+	UICorner_32 = Instance.new("UICorner")
+	Discord = Instance.new("TextButton")
+	UICorner_33 = Instance.new("UICorner")
+	ViewPlayer = Instance.new("TextButton")
+	UICorner_34 = Instance.new("UICorner")
+	ViewTXT = Instance.new("TextBox")
+	UICorner_35 = Instance.new("UICorner")
+	Creeper = Instance.new("TextButton")
+	UICorner_36 = Instance.new("UICorner")
+	BH = Instance.new("TextButton")
+	UICorner_37 = Instance.new("UICorner")
+	BlockHead = Instance.new("TextButton")
+	UICorner_38 = Instance.new("UICorner")
+	Print = Instance.new("TextButton")
+	UICorner_39 = Instance.new("UICorner")
+	swim = Instance.new("TextButton")
+	UICorner_40 = Instance.new("UICorner")
+	PrintTXT = Instance.new("TextBox")
+	UICorner_41 = Instance.new("UICorner")
+	Esp = Instance.new("TextButton")
+	UICorner_42 = Instance.new("UICorner")
+	PrintALLplrs = Instance.new("TextButton")
+	UICorner_43 = Instance.new("UICorner")
+	Reset = Instance.new("TextButton")
+	UICorner_44 = Instance.new("UICorner")
+	Light = Instance.new("TextButton")
+	UICorner_45 = Instance.new("UICorner")
+	NoFog = Instance.new("TextButton")
+	UICorner_46 = Instance.new("UICorner")
+	Day = Instance.new("TextButton")
+	UICorner_47 = Instance.new("UICorner")
+	NIght = Instance.new("TextButton")
+	UICorner_48 = Instance.new("UICorner")
+	CopyPos = Instance.new("TextButton")
+	UICorner_49 = Instance.new("UICorner")
+	PositionplrTXT = Instance.new("TextBox")
+	UICorner_50 = Instance.new("UICorner")
+	NetBypass = Instance.new("TextButton")
+	UICorner_51 = Instance.new("UICorner")
+	Infjump = Instance.new("TextButton")
+	UICorner_52 = Instance.new("UICorner")
+	Credits = Instance.new("Frame")
+	TextLabel_5 = Instance.new("TextLabel")
+	TextLabel_6 = Instance.new("TextLabel")
+	UICorner_53 = Instance.new("UICorner")
+	TextLabel_7 = Instance.new("TextLabel")
+	TextLabel_8 = Instance.new("TextLabel")
+	UICorner_54 = Instance.new("UICorner")
+	TextLabel_9 = Instance.new("TextLabel")
+	Top = Instance.new("Frame")
+	UICorner_55 = Instance.new("UICorner")
+	Close = Instance.new("TextButton")
+	UICorner_56 = Instance.new("UICorner")
+	ScriptTitle = Instance.new("TextLabel")
+	Version = Instance.new("TextLabel")
+	PlayersInGame = Instance.new("Frame")
+	ScrollingFrame_2 = Instance.new("ScrollingFrame")
+	UICorner_57 = Instance.new("UICorner")
+	UIListLayout = Instance.new("UIListLayout")
+	Player = Instance.new("TextButton")
+	UICorner_58 = Instance.new("UICorner")
+end
 
 --Properties:
 
 Cracked_X.Name = "Cracked_X"
-Cracked_X.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Cracked_X.Parent = game.CoreGui
 Cracked_X.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Cracked_X.ResetOnSpawn = false
 
 Main.Name = "Main"
 Main.Parent = Cracked_X
-Main.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Main.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.195105135, 0, 0.202822253, 0)
 Main.Size = UDim2.new(0, 492, 0, 321)
@@ -307,16 +308,72 @@ Settings.BorderSizePixel = 0
 Settings.Size = UDim2.new(0, 492, 0, 321)
 Settings.Visible = false
 
-TextLabel_5.Parent = Settings
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.16260162, 0, 0.205607474, 0)
-TextLabel_5.Size = UDim2.new(0, 383, 0, 172)
-TextLabel_5.Font = Enum.Font.SourceSans
-TextLabel_5.Text = "COMING SOON!"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 73.000
+Themes.Name = "Themes"
+Themes.Parent = Settings
+Themes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Themes.BackgroundTransparency = 1.000
+Themes.Position = UDim2.new(0.359756112, 0, 0.174454823, 0)
+Themes.Size = UDim2.new(0, 200, 0, 12)
+Themes.Font = Enum.Font.SourceSans
+Themes.Text = "Color Themes"
+Themes.TextColor3 = Color3.fromRGB(255, 255, 255)
+Themes.TextSize = 14.000
+
+Black.Name = "Black"
+Black.Parent = Settings
+Black.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Black.Position = UDim2.new(0.174198985, 0, 0.249162614, 0)
+Black.Size = UDim2.new(0, 114, 0, 21)
+Black.Font = Enum.Font.Nunito
+Black.Text = "Black"
+Black.TextColor3 = Color3.fromRGB(255, 255, 255)
+Black.TextSize = 14.000
+Black.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 3)
+UICorner_9.Parent = Black
+
+Gray.Name = "Gray"
+Gray.Parent = Settings
+Gray.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Gray.Position = UDim2.new(0.446556717, 0, 0.249162614, 0)
+Gray.Size = UDim2.new(0, 114, 0, 21)
+Gray.Font = Enum.Font.Nunito
+Gray.Text = "Gray"
+Gray.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gray.TextSize = 14.000
+Gray.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 3)
+UICorner_10.Parent = Gray
+
+Yellow.Name = "Yellow"
+Yellow.Parent = Settings
+Yellow.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Yellow.Position = UDim2.new(0.708751857, 0, 0.249162614, 0)
+Yellow.Size = UDim2.new(0, 114, 0, 21)
+Yellow.Font = Enum.Font.Nunito
+Yellow.Text = "Yellow"
+Yellow.TextColor3 = Color3.fromRGB(255, 255, 255)
+Yellow.TextSize = 14.000
+Yellow.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 3)
+UICorner_11.Parent = Yellow
+
+Normal.Name = "Normal"
+Normal.Parent = Settings
+Normal.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Normal.Position = UDim2.new(0.446556717, 0, 0.351966351, 0)
+Normal.Size = UDim2.new(0, 114, 0, 21)
+Normal.Font = Enum.Font.Nunito
+Normal.Text = "Normal"
+Normal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Normal.TextSize = 14.000
+Normal.TextWrapped = true
+
+UICorner_12.CornerRadius = UDim.new(0, 3)
+UICorner_12.Parent = Normal
 
 Scripts.Name = "Scripts"
 Scripts.Parent = Main
@@ -332,7 +389,7 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.BorderColor3 = Color3.fromRGB(39, 39, 39)
 ScrollingFrame.Position = UDim2.new(0.154471546, 0, 0.143302187, 0)
 ScrollingFrame.Size = UDim2.new(0, 408, 0, 275)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 450)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 600)
 ScrollingFrame.CanvasSize = UDim2.new(0, 0, 5, 0)
 ScrollingFrame.ScrollBarThickness = 5
 
@@ -348,8 +405,8 @@ Respawn.TextColor3 = Color3.fromRGB(255, 255, 255)
 Respawn.TextSize = 14.000
 Respawn.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 3)
-UICorner_9.Parent = Respawn
+UICorner_13.CornerRadius = UDim.new(0, 3)
+UICorner_13.Parent = Respawn
 
 Walkspeedchanger.Name = "Walkspeed changer"
 Walkspeedchanger.Parent = ScrollingFrame
@@ -362,8 +419,8 @@ Walkspeedchanger.TextColor3 = Color3.fromRGB(255, 255, 255)
 Walkspeedchanger.TextSize = 14.000
 Walkspeedchanger.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0, 3)
-UICorner_10.Parent = Walkspeedchanger
+UICorner_14.CornerRadius = UDim.new(0, 3)
+UICorner_14.Parent = Walkspeedchanger
 
 Sit.Name = "Sit"
 Sit.Parent = ScrollingFrame
@@ -376,13 +433,13 @@ Sit.TextColor3 = Color3.fromRGB(255, 255, 255)
 Sit.TextSize = 14.000
 Sit.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 3)
-UICorner_11.Parent = Sit
+UICorner_15.CornerRadius = UDim.new(0, 3)
+UICorner_15.Parent = Sit
 
 Godmode.Name = "Godmode"
 Godmode.Parent = ScrollingFrame
 Godmode.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-Godmode.Position = UDim2.new(0.683823526, 0, 0.00679508224, 0)
+Godmode.Position = UDim2.new(0.683823526, 0, 0.00741813518, 0)
 Godmode.Size = UDim2.new(0, 118, 0, 31)
 Godmode.Font = Enum.Font.Nunito
 Godmode.Text = "Godmode"
@@ -392,8 +449,8 @@ Godmode.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 Godmode.TextStrokeTransparency = 0.730
 Godmode.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 3)
-UICorner_12.Parent = Godmode
+UICorner_16.CornerRadius = UDim.new(0, 3)
+UICorner_16.Parent = Godmode
 
 JumpPowerchanger.Name = "JumpPower changer"
 JumpPowerchanger.Parent = ScrollingFrame
@@ -406,8 +463,8 @@ JumpPowerchanger.TextColor3 = Color3.fromRGB(255, 255, 255)
 JumpPowerchanger.TextSize = 14.000
 JumpPowerchanger.TextWrapped = true
 
-UICorner_13.CornerRadius = UDim.new(0, 3)
-UICorner_13.Parent = JumpPowerchanger
+UICorner_17.CornerRadius = UDim.new(0, 3)
+UICorner_17.Parent = JumpPowerchanger
 
 Goto.Name = "Goto"
 Goto.Parent = ScrollingFrame
@@ -420,8 +477,8 @@ Goto.TextColor3 = Color3.fromRGB(255, 255, 255)
 Goto.TextSize = 14.000
 Goto.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 3)
-UICorner_14.Parent = Goto
+UICorner_18.CornerRadius = UDim.new(0, 3)
+UICorner_18.Parent = Goto
 
 BringPlayerTXT.Name = "BringPlayerTXT"
 BringPlayerTXT.Parent = ScrollingFrame
@@ -435,8 +492,8 @@ BringPlayerTXT.TextColor3 = Color3.fromRGB(255, 255, 255)
 BringPlayerTXT.TextSize = 14.000
 BringPlayerTXT.TextWrapped = true
 
-UICorner_15.CornerRadius = UDim.new(0, 3)
-UICorner_15.Parent = BringPlayerTXT
+UICorner_19.CornerRadius = UDim.new(0, 3)
+UICorner_19.Parent = BringPlayerTXT
 
 jumppower.Name = "jumppower"
 jumppower.Parent = ScrollingFrame
@@ -450,8 +507,8 @@ jumppower.TextColor3 = Color3.fromRGB(255, 255, 255)
 jumppower.TextSize = 14.000
 jumppower.TextWrapped = true
 
-UICorner_16.CornerRadius = UDim.new(0, 3)
-UICorner_16.Parent = jumppower
+UICorner_20.CornerRadius = UDim.new(0, 3)
+UICorner_20.Parent = jumppower
 
 AutoRespawn.Name = "AutoRespawn"
 AutoRespawn.Parent = ScrollingFrame
@@ -466,8 +523,8 @@ AutoRespawn.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 AutoRespawn.TextStrokeTransparency = 0.730
 AutoRespawn.TextWrapped = true
 
-UICorner_17.CornerRadius = UDim.new(0, 3)
-UICorner_17.Parent = AutoRespawn
+UICorner_21.CornerRadius = UDim.new(0, 3)
+UICorner_21.Parent = AutoRespawn
 
 Walkspeed.Name = "Walkspeed"
 Walkspeed.Parent = ScrollingFrame
@@ -481,8 +538,8 @@ Walkspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
 Walkspeed.TextSize = 14.000
 Walkspeed.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0, 3)
-UICorner_18.Parent = Walkspeed
+UICorner_22.CornerRadius = UDim.new(0, 3)
+UICorner_22.Parent = Walkspeed
 
 Fling.Name = "Fling"
 Fling.Parent = ScrollingFrame
@@ -495,8 +552,8 @@ Fling.TextColor3 = Color3.fromRGB(255, 255, 255)
 Fling.TextSize = 14.000
 Fling.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0, 3)
-UICorner_19.Parent = Fling
+UICorner_23.CornerRadius = UDim.new(0, 3)
+UICorner_23.Parent = Fling
 
 noclip.Name = "noclip"
 noclip.Parent = ScrollingFrame
@@ -511,8 +568,8 @@ noclip.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 noclip.TextStrokeTransparency = 0.730
 noclip.TextWrapped = true
 
-UICorner_20.CornerRadius = UDim.new(0, 3)
-UICorner_20.Parent = noclip
+UICorner_24.CornerRadius = UDim.new(0, 3)
+UICorner_24.Parent = noclip
 
 Rejoin.Name = "Rejoin"
 Rejoin.Parent = ScrollingFrame
@@ -525,8 +582,8 @@ Rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
 Rejoin.TextSize = 14.000
 Rejoin.TextWrapped = true
 
-UICorner_21.CornerRadius = UDim.new(0, 3)
-UICorner_21.Parent = Rejoin
+UICorner_25.CornerRadius = UDim.new(0, 3)
+UICorner_25.Parent = Rejoin
 
 ServerHop.Name = "ServerHop"
 ServerHop.Parent = ScrollingFrame
@@ -539,8 +596,8 @@ ServerHop.TextColor3 = Color3.fromRGB(255, 255, 255)
 ServerHop.TextSize = 14.000
 ServerHop.TextWrapped = true
 
-UICorner_22.CornerRadius = UDim.new(0, 3)
-UICorner_22.Parent = ServerHop
+UICorner_26.CornerRadius = UDim.new(0, 3)
+UICorner_26.Parent = ServerHop
 
 fly.Name = "fly"
 fly.Parent = ScrollingFrame
@@ -555,8 +612,8 @@ fly.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 fly.TextStrokeTransparency = 0.730
 fly.TextWrapped = true
 
-UICorner_23.CornerRadius = UDim.new(0, 3)
-UICorner_23.Parent = fly
+UICorner_27.CornerRadius = UDim.new(0, 3)
+UICorner_27.Parent = fly
 
 Bring.Name = "Bring"
 Bring.Parent = ScrollingFrame
@@ -569,8 +626,8 @@ Bring.TextColor3 = Color3.fromRGB(255, 255, 255)
 Bring.TextSize = 14.000
 Bring.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 3)
-UICorner_24.Parent = Bring
+UICorner_28.CornerRadius = UDim.new(0, 3)
+UICorner_28.Parent = Bring
 
 Gotoplayer.Name = "Goto player"
 Gotoplayer.Parent = ScrollingFrame
@@ -584,8 +641,8 @@ Gotoplayer.TextColor3 = Color3.fromRGB(255, 255, 255)
 Gotoplayer.TextSize = 14.000
 Gotoplayer.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 3)
-UICorner_25.Parent = Gotoplayer
+UICorner_29.CornerRadius = UDim.new(0, 3)
+UICorner_29.Parent = Gotoplayer
 
 F3X.Name = "F3X"
 F3X.Parent = ScrollingFrame
@@ -598,8 +655,8 @@ F3X.TextColor3 = Color3.fromRGB(255, 255, 255)
 F3X.TextSize = 14.000
 F3X.TextWrapped = true
 
-UICorner_26.CornerRadius = UDim.new(0, 3)
-UICorner_26.Parent = F3X
+UICorner_30.CornerRadius = UDim.new(0, 3)
+UICorner_30.Parent = F3X
 
 Antiafk.Name = "Antiafk"
 Antiafk.Parent = ScrollingFrame
@@ -612,8 +669,8 @@ Antiafk.TextColor3 = Color3.fromRGB(255, 255, 255)
 Antiafk.TextSize = 14.000
 Antiafk.TextWrapped = true
 
-UICorner_27.CornerRadius = UDim.new(0, 3)
-UICorner_27.Parent = Antiafk
+UICorner_31.CornerRadius = UDim.new(0, 3)
+UICorner_31.Parent = Antiafk
 
 vehiclenoclip.Name = "vehiclenoclip"
 vehiclenoclip.Parent = ScrollingFrame
@@ -628,8 +685,8 @@ vehiclenoclip.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 vehiclenoclip.TextStrokeTransparency = 0.730
 vehiclenoclip.TextWrapped = true
 
-UICorner_28.CornerRadius = UDim.new(0, 3)
-UICorner_28.Parent = vehiclenoclip
+UICorner_32.CornerRadius = UDim.new(0, 3)
+UICorner_32.Parent = vehiclenoclip
 
 Discord.Name = "Discord"
 Discord.Parent = ScrollingFrame
@@ -642,8 +699,8 @@ Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord.TextSize = 14.000
 Discord.TextWrapped = true
 
-UICorner_29.CornerRadius = UDim.new(0, 3)
-UICorner_29.Parent = Discord
+UICorner_33.CornerRadius = UDim.new(0, 3)
+UICorner_33.Parent = Discord
 
 ViewPlayer.Name = "ViewPlayer"
 ViewPlayer.Parent = ScrollingFrame
@@ -656,8 +713,8 @@ ViewPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
 ViewPlayer.TextSize = 14.000
 ViewPlayer.TextWrapped = true
 
-UICorner_30.CornerRadius = UDim.new(0, 3)
-UICorner_30.Parent = ViewPlayer
+UICorner_34.CornerRadius = UDim.new(0, 3)
+UICorner_34.Parent = ViewPlayer
 
 ViewTXT.Name = "ViewTXT"
 ViewTXT.Parent = ScrollingFrame
@@ -671,8 +728,8 @@ ViewTXT.TextColor3 = Color3.fromRGB(255, 255, 255)
 ViewTXT.TextSize = 14.000
 ViewTXT.TextWrapped = true
 
-UICorner_31.CornerRadius = UDim.new(0, 3)
-UICorner_31.Parent = ViewTXT
+UICorner_35.CornerRadius = UDim.new(0, 3)
+UICorner_35.Parent = ViewTXT
 
 Creeper.Name = "Creeper"
 Creeper.Parent = ScrollingFrame
@@ -685,8 +742,8 @@ Creeper.TextColor3 = Color3.fromRGB(255, 255, 255)
 Creeper.TextSize = 14.000
 Creeper.TextWrapped = true
 
-UICorner_32.CornerRadius = UDim.new(0, 3)
-UICorner_32.Parent = Creeper
+UICorner_36.CornerRadius = UDim.new(0, 3)
+UICorner_36.Parent = Creeper
 
 BH.Name = "BH"
 BH.Parent = ScrollingFrame
@@ -699,8 +756,8 @@ BH.TextColor3 = Color3.fromRGB(255, 255, 255)
 BH.TextSize = 14.000
 BH.TextWrapped = true
 
-UICorner_33.CornerRadius = UDim.new(0, 3)
-UICorner_33.Parent = BH
+UICorner_37.CornerRadius = UDim.new(0, 3)
+UICorner_37.Parent = BH
 
 BlockHead.Name = "BlockHead"
 BlockHead.Parent = ScrollingFrame
@@ -713,8 +770,8 @@ BlockHead.TextColor3 = Color3.fromRGB(255, 255, 255)
 BlockHead.TextSize = 14.000
 BlockHead.TextWrapped = true
 
-UICorner_34.CornerRadius = UDim.new(0, 3)
-UICorner_34.Parent = BlockHead
+UICorner_38.CornerRadius = UDim.new(0, 3)
+UICorner_38.Parent = BlockHead
 
 Print.Name = "Print"
 Print.Parent = ScrollingFrame
@@ -727,8 +784,8 @@ Print.TextColor3 = Color3.fromRGB(255, 255, 255)
 Print.TextSize = 14.000
 Print.TextWrapped = true
 
-UICorner_35.CornerRadius = UDim.new(0, 3)
-UICorner_35.Parent = Print
+UICorner_39.CornerRadius = UDim.new(0, 3)
+UICorner_39.Parent = Print
 
 swim.Name = "swim"
 swim.Parent = ScrollingFrame
@@ -743,8 +800,8 @@ swim.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 swim.TextStrokeTransparency = 0.730
 swim.TextWrapped = true
 
-UICorner_36.CornerRadius = UDim.new(0, 3)
-UICorner_36.Parent = swim
+UICorner_40.CornerRadius = UDim.new(0, 3)
+UICorner_40.Parent = swim
 
 PrintTXT.Name = "PrintTXT"
 PrintTXT.Parent = ScrollingFrame
@@ -758,8 +815,8 @@ PrintTXT.TextColor3 = Color3.fromRGB(255, 255, 255)
 PrintTXT.TextSize = 14.000
 PrintTXT.TextWrapped = true
 
-UICorner_37.CornerRadius = UDim.new(0, 3)
-UICorner_37.Parent = PrintTXT
+UICorner_41.CornerRadius = UDim.new(0, 3)
+UICorner_41.Parent = PrintTXT
 
 Esp.Name = "Esp"
 Esp.Parent = ScrollingFrame
@@ -774,8 +831,8 @@ Esp.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 Esp.TextStrokeTransparency = 0.730
 Esp.TextWrapped = true
 
-UICorner_38.CornerRadius = UDim.new(0, 3)
-UICorner_38.Parent = Esp
+UICorner_42.CornerRadius = UDim.new(0, 3)
+UICorner_42.Parent = Esp
 
 PrintALLplrs.Name = "PrintALLplrs"
 PrintALLplrs.Parent = ScrollingFrame
@@ -788,8 +845,8 @@ PrintALLplrs.TextColor3 = Color3.fromRGB(255, 255, 255)
 PrintALLplrs.TextSize = 14.000
 PrintALLplrs.TextWrapped = true
 
-UICorner_39.CornerRadius = UDim.new(0, 3)
-UICorner_39.Parent = PrintALLplrs
+UICorner_43.CornerRadius = UDim.new(0, 3)
+UICorner_43.Parent = PrintALLplrs
 
 Reset.Name = "Reset"
 Reset.Parent = ScrollingFrame
@@ -802,8 +859,8 @@ Reset.TextColor3 = Color3.fromRGB(255, 255, 255)
 Reset.TextSize = 14.000
 Reset.TextWrapped = true
 
-UICorner_40.CornerRadius = UDim.new(0, 3)
-UICorner_40.Parent = Reset
+UICorner_44.CornerRadius = UDim.new(0, 3)
+UICorner_44.Parent = Reset
 
 Light.Name = "Light"
 Light.Parent = ScrollingFrame
@@ -818,8 +875,8 @@ Light.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 Light.TextStrokeTransparency = 0.730
 Light.TextWrapped = true
 
-UICorner_41.CornerRadius = UDim.new(0, 3)
-UICorner_41.Parent = Light
+UICorner_45.CornerRadius = UDim.new(0, 3)
+UICorner_45.Parent = Light
 
 NoFog.Name = "NoFog"
 NoFog.Parent = ScrollingFrame
@@ -834,8 +891,8 @@ NoFog.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
 NoFog.TextStrokeTransparency = 0.730
 NoFog.TextWrapped = true
 
-UICorner_42.CornerRadius = UDim.new(0, 3)
-UICorner_42.Parent = NoFog
+UICorner_46.CornerRadius = UDim.new(0, 3)
+UICorner_46.Parent = NoFog
 
 Day.Name = "Day"
 Day.Parent = ScrollingFrame
@@ -848,8 +905,8 @@ Day.TextColor3 = Color3.fromRGB(255, 255, 255)
 Day.TextSize = 14.000
 Day.TextWrapped = true
 
-UICorner_43.CornerRadius = UDim.new(0, 3)
-UICorner_43.Parent = Day
+UICorner_47.CornerRadius = UDim.new(0, 3)
+UICorner_47.Parent = Day
 
 NIght.Name = "NIght"
 NIght.Parent = ScrollingFrame
@@ -862,8 +919,8 @@ NIght.TextColor3 = Color3.fromRGB(255, 255, 255)
 NIght.TextSize = 14.000
 NIght.TextWrapped = true
 
-UICorner_44.CornerRadius = UDim.new(0, 3)
-UICorner_44.Parent = NIght
+UICorner_48.CornerRadius = UDim.new(0, 3)
+UICorner_48.Parent = NIght
 
 CopyPos.Name = "CopyPos"
 CopyPos.Parent = ScrollingFrame
@@ -876,8 +933,8 @@ CopyPos.TextColor3 = Color3.fromRGB(255, 255, 255)
 CopyPos.TextSize = 14.000
 CopyPos.TextWrapped = true
 
-UICorner_45.CornerRadius = UDim.new(0, 3)
-UICorner_45.Parent = CopyPos
+UICorner_49.CornerRadius = UDim.new(0, 3)
+UICorner_49.Parent = CopyPos
 
 PositionplrTXT.Name = "PositionplrTXT"
 PositionplrTXT.Parent = ScrollingFrame
@@ -891,13 +948,13 @@ PositionplrTXT.TextColor3 = Color3.fromRGB(255, 255, 255)
 PositionplrTXT.TextSize = 14.000
 PositionplrTXT.TextWrapped = true
 
-UICorner_46.CornerRadius = UDim.new(0, 3)
-UICorner_46.Parent = PositionplrTXT
+UICorner_50.CornerRadius = UDim.new(0, 3)
+UICorner_50.Parent = PositionplrTXT
 
 NetBypass.Name = "NetBypass"
 NetBypass.Parent = ScrollingFrame
 NetBypass.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-NetBypass.Position = UDim2.new(0.67892158, 0, 0.35009712, 0)
+NetBypass.Position = UDim2.new(0.0465686321, 0, 0.383741975, 0)
 NetBypass.Size = UDim2.new(0, 118, 0, 31)
 NetBypass.Font = Enum.Font.Nunito
 NetBypass.Text = "Net Bypass"
@@ -905,8 +962,24 @@ NetBypass.TextColor3 = Color3.fromRGB(255, 255, 255)
 NetBypass.TextSize = 14.000
 NetBypass.TextWrapped = true
 
-UICorner_47.CornerRadius = UDim.new(0, 3)
-UICorner_47.Parent = NetBypass
+UICorner_51.CornerRadius = UDim.new(0, 3)
+UICorner_51.Parent = NetBypass
+
+Infjump.Name = "Infjump"
+Infjump.Parent = ScrollingFrame
+Infjump.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Infjump.Position = UDim2.new(0.683823645, 0, 0.349785715, 0)
+Infjump.Size = UDim2.new(0, 118, 0, 31)
+Infjump.Font = Enum.Font.Nunito
+Infjump.Text = "infinite jump"
+Infjump.TextColor3 = Color3.fromRGB(255, 255, 255)
+Infjump.TextSize = 14.000
+Infjump.TextStrokeColor3 = Color3.fromRGB(255, 0, 4)
+Infjump.TextStrokeTransparency = 0.730
+Infjump.TextWrapped = true
+
+UICorner_52.CornerRadius = UDim.new(0, 3)
+UICorner_52.Parent = Infjump
 
 Credits.Name = "Credits"
 Credits.Parent = Main
@@ -916,68 +989,68 @@ Credits.BorderSizePixel = 0
 Credits.Size = UDim2.new(0, 492, 0, 321)
 Credits.Visible = false
 
+TextLabel_5.Parent = Credits
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.189024448, 0, 0.174454823, 0)
+TextLabel_5.Size = UDim2.new(0, 156, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "H17S3#2734"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 36.000
+
 TextLabel_6.Parent = Credits
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
 TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0.189024448, 0, 0.174454823, 0)
-TextLabel_6.Size = UDim2.new(0, 156, 0, 50)
+TextLabel_6.Position = UDim2.new(0.201219514, 0, 0.330218077, 0)
+TextLabel_6.Size = UDim2.new(0, 149, 0, 160)
 TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = "H17S3#2734"
+TextLabel_6.Text = "He was the primary scripter and assisted with the UI. He was also a partner in the GUI."
 TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.TextSize = 36.000
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_6.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_53.Parent = TextLabel_6
 
 TextLabel_7.Parent = Credits
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
 TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0.201219514, 0, 0.330218077, 0)
-TextLabel_7.Size = UDim2.new(0, 149, 0, 148)
+TextLabel_7.Position = UDim2.new(0.567073107, 0, 0.174454823, 0)
+TextLabel_7.Size = UDim2.new(0, 195, 0, 50)
 TextLabel_7.Font = Enum.Font.SourceSans
-TextLabel_7.Text = "He was the primary scripter and assisted with the UI. He was also a partner in the GUI."
+TextLabel_7.Text = "LOLX1R21#9727"
 TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 14.000
-TextLabel_7.TextWrapped = true
-TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
-TextLabel_7.TextYAlignment = Enum.TextYAlignment.Top
-
-UICorner_48.Parent = TextLabel_7
+TextLabel_7.TextSize = 36.000
 
 TextLabel_8.Parent = Credits
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
 TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0.567073107, 0, 0.174454823, 0)
-TextLabel_8.Size = UDim2.new(0, 195, 0, 50)
+TextLabel_8.Position = UDim2.new(0.61178863, 0, 0.330218077, 0)
+TextLabel_8.Size = UDim2.new(0, 149, 0, 160)
 TextLabel_8.Font = Enum.Font.SourceSans
-TextLabel_8.Text = "LOLX1R21#9727"
+TextLabel_8.Text = "This would be myself, presumably the script's founder. I developed the user interface and conducted some coding."
 TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 36.000
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_8.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_54.Parent = TextLabel_8
 
 TextLabel_9.Parent = Credits
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(79, 79, 79)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
 TextLabel_9.BorderSizePixel = 0
-TextLabel_9.Position = UDim2.new(0.61178863, 0, 0.330218077, 0)
-TextLabel_9.Size = UDim2.new(0, 149, 0, 148)
+TextLabel_9.Position = UDim2.new(0.339430898, 0, 0.0934579447, 0)
+TextLabel_9.Size = UDim2.new(0, 212, 0, 34)
 TextLabel_9.Font = Enum.Font.SourceSans
-TextLabel_9.Text = "This would be myself, presumably the script's founder. I developed the user interface and conducted some coding."
+TextLabel_9.Text = "Credits"
 TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 14.000
-TextLabel_9.TextWrapped = true
-TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
-TextLabel_9.TextYAlignment = Enum.TextYAlignment.Top
-
-UICorner_49.Parent = TextLabel_9
-
-TextLabel_10.Parent = Credits
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0.339430898, 0, 0.0934579447, 0)
-TextLabel_10.Size = UDim2.new(0, 212, 0, 34)
-TextLabel_10.Font = Enum.Font.SourceSans
-TextLabel_10.Text = "Credits"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 55.000
+TextLabel_9.TextSize = 55.000
 
 Top.Name = "Top"
 Top.Parent = Main
@@ -985,7 +1058,7 @@ Top.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 Top.BorderSizePixel = 0
 Top.Size = UDim2.new(0, 492, 0, 30)
 
-UICorner_50.Parent = Top
+UICorner_55.Parent = Top
 
 Close.Name = "Close"
 Close.Parent = Top
@@ -999,14 +1072,14 @@ Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 14.000
 Close.TextWrapped = true
 
-UICorner_51.Parent = Close
+UICorner_56.Parent = Close
 
 ScriptTitle.Name = "ScriptTitle"
 ScriptTitle.Parent = Top
 ScriptTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScriptTitle.BackgroundTransparency = 1.000
 ScriptTitle.Position = UDim2.new(0.0182926822, 0, 0.0666666701, 0)
-ScriptTitle.Size = UDim2.new(0, 135, 0, 23)
+ScriptTitle.Size = UDim2.new(0, 135, 0, 22)
 ScriptTitle.Font = Enum.Font.Nunito
 ScriptTitle.Text = "Cracked-X"
 ScriptTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -1019,7 +1092,7 @@ Version.Name = "Version"
 Version.Parent = Top
 Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Version.BackgroundTransparency = 1.000
-Version.Position = UDim2.new(0.201219514, 0, 0, 0)
+Version.Position = UDim2.new(0.191056907, 0, 0, 0)
 Version.Size = UDim2.new(0, 135, 0, 23)
 Version.Font = Enum.Font.Nunito
 Version.Text = "BETA"
@@ -1045,8 +1118,8 @@ ScrollingFrame_2.Position = UDim2.new(0.221544713, 0, 0.143302187, 0)
 ScrollingFrame_2.Size = UDim2.new(0, 342, 0, 260)
 ScrollingFrame_2.ScrollBarThickness = 5
 
-UICorner_52.CornerRadius = UDim.new(0, 3)
-UICorner_52.Parent = ScrollingFrame_2
+UICorner_57.CornerRadius = UDim.new(0, 3)
+UICorner_57.Parent = ScrollingFrame_2
 
 UIListLayout.Parent = ScrollingFrame_2
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -1067,79 +1140,7 @@ Player.TextScaled = true
 Player.TextSize = 14.000
 Player.TextWrapped = true
 
-UICorner_53.Parent = Player
-
-KeyFrame.Name = "KeyFrame"
-KeyFrame.Parent = Cracked_X
-KeyFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-KeyFrame.BorderSizePixel = 0
-KeyFrame.Position = UDim2.new(0.223200843, 0, 0.244793177, 0)
-KeyFrame.Size = UDim2.new(0, 451, 0, 276)
-KeyFrame.Visible = false
-
-TextLabel_11.Parent = KeyFrame
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TextLabel_11.BorderSizePixel = 0
-TextLabel_11.Position = UDim2.new(-0.00221729488, 0, 0, 0)
-TextLabel_11.Size = UDim2.new(0, 451, 0, 39)
-TextLabel_11.Font = Enum.Font.SourceSans
-TextLabel_11.Text = "Key Login"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextScaled = true
-TextLabel_11.TextSize = 51.000
-TextLabel_11.TextWrapped = true
-
-UICorner_54.Parent = TextLabel_11
-
-Check.Name = "Check"
-Check.Parent = KeyFrame
-Check.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-Check.BorderSizePixel = 0
-Check.Position = UDim2.new(0.277161866, 0, 0.626811564, 0)
-Check.Size = UDim2.new(0, 200, 0, 33)
-Check.Font = Enum.Font.Code
-Check.Text = "Check Key"
-Check.TextColor3 = Color3.fromRGB(255, 255, 255)
-Check.TextSize = 26.000
-Check.TextWrapped = true
-
-UICorner_55.CornerRadius = UDim.new(0, 3)
-UICorner_55.Parent = Check
-
-key.Name = "key"
-key.Parent = KeyFrame
-key.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
-key.BorderSizePixel = 0
-key.Position = UDim2.new(0.184035465, 0, 0.326086938, 0)
-key.Size = UDim2.new(0, 283, 0, 50)
-key.Font = Enum.Font.SourceSans
-key.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-key.PlaceholderText = "Key Here..."
-key.Text = ""
-key.TextColor3 = Color3.fromRGB(255, 255, 255)
-key.TextSize = 38.000
-
-UICorner_56.CornerRadius = UDim.new(0, 3)
-UICorner_56.Parent = key
-
-UICorner_57.CornerRadius = UDim.new(0, 9)
-UICorner_57.Parent = KeyFrame
-
-Close_2.Name = "Close"
-Close_2.Parent = KeyFrame
-Close_2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
-Close_2.BorderSizePixel = 0
-Close_2.Position = UDim2.new(0.94161123, 0, 0.0253623184, 0)
-Close_2.Size = UDim2.new(0, 20, 0, 21)
-Close_2.Font = Enum.Font.SciFi
-Close_2.Text = "X"
-Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close_2.TextScaled = true
-Close_2.TextSize = 14.000
-Close_2.TextWrapped = true
-
-UICorner_58.CornerRadius = UDim.new(0, 4)
-UICorner_58.Parent = Close_2
+UICorner_58.Parent = Player
 
 -- Module Scripts:
 
@@ -1187,15 +1188,20 @@ do -- Cracked_X.ModuleScript
 		
 				Notif.Name = math.random()
 		
-				Notif.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+				if game:GetService("RunService"):IsStudio() then
+					Notif.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+				else
+					Notif.Parent = game.CoreGui
+				end
 				Notif.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-		
+				Notif.ResetOnSpawn = false
+				
 				MainPart.Name = "MainPart"
 				MainPart.Parent = Notif
 				MainPart.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 				MainPart.Position = UDim2.new(0.725822449, 0, 0.85424298, 0)
 				MainPart.Position = UDim2.new(0.726, 0,0.961, 0)
-				MainPart.Position = MainPart.Position+UDim2.new(0,8,0,0)
+				MainPart.Position = MainPart.Position+UDim2.new(0,23,0,0)
 				MainPart.Size = UDim2.new(0, 220, 0, 87)
 		
 				TopTitle.Name = "TopTitle"
@@ -1375,7 +1381,7 @@ end
 
 -- Scripts:
 
-local function TFJIL_fake_script() -- SettingsB.something 
+local function AWVHAYC_fake_script() -- SettingsB.something 
 	local script = Instance.new('LocalScript', SettingsB)
 	local req = require
 	local require = function(obj)
@@ -1400,8 +1406,8 @@ local function TFJIL_fake_script() -- SettingsB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(TFJIL_fake_script)()
-local function ICUPDC_fake_script() -- HomeB.something 
+coroutine.wrap(AWVHAYC_fake_script)()
+local function EFYO_fake_script() -- HomeB.something 
 	local script = Instance.new('LocalScript', HomeB)
 	local req = require
 	local require = function(obj)
@@ -1426,8 +1432,8 @@ local function ICUPDC_fake_script() -- HomeB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(ICUPDC_fake_script)()
-local function LYCMZK_fake_script() -- NavigationBar.LocalScript 
+coroutine.wrap(EFYO_fake_script)()
+local function DTOWA_fake_script() -- NavigationBar.LocalScript 
 	local script = Instance.new('LocalScript', NavigationBar)
 	local req = require
 	local require = function(obj)
@@ -1442,14 +1448,12 @@ local function LYCMZK_fake_script() -- NavigationBar.LocalScript
 	repeat wait() until game:IsLoaded() and game.Players.LocalPlayer and script.Parent.Parent.Visible == true
 	script.Parent:TweenSize(UDim2.new(0, 47,0, 260),"Out","Quart")
 	
-	if not game:GetService("RunService"):IsStudio() then
-		loadstring(game:HttpGetAsync("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\72\49\55\83\51\50\47\99\114\97\99\107\101\100\120\47\109\97\105\110\47\119\104\105\116\101\108\105\115\116"))()
-	end
+	
 	wait()
 	
 end
-coroutine.wrap(LYCMZK_fake_script)()
-local function JNYIM_fake_script() -- ScriptsB.something 
+coroutine.wrap(DTOWA_fake_script)()
+local function NMDDDZ_fake_script() -- ScriptsB.something 
 	local script = Instance.new('LocalScript', ScriptsB)
 	local req = require
 	local require = function(obj)
@@ -1474,8 +1478,8 @@ local function JNYIM_fake_script() -- ScriptsB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(JNYIM_fake_script)()
-local function PLJGE_fake_script() -- CreditsB.something 
+coroutine.wrap(NMDDDZ_fake_script)()
+local function GYSMSI_fake_script() -- CreditsB.something 
 	local script = Instance.new('LocalScript', CreditsB)
 	local req = require
 	local require = function(obj)
@@ -1500,8 +1504,8 @@ local function PLJGE_fake_script() -- CreditsB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(PLJGE_fake_script)()
-local function RPSZ_fake_script() -- PlayersInGAMEB.something 
+coroutine.wrap(GYSMSI_fake_script)()
+local function XWFCFX_fake_script() -- PlayersInGAMEB.something 
 	local script = Instance.new('LocalScript', PlayersInGAMEB)
 	local req = require
 	local require = function(obj)
@@ -1526,8 +1530,8 @@ local function RPSZ_fake_script() -- PlayersInGAMEB.something
 		game:GetService("TweenService"):Create(script.Parent.UICorner, tweenInfo, {CornerRadius = UDim.new(0,3)}):Play()
 	end)
 end
-coroutine.wrap(RPSZ_fake_script)()
-local function JCPQOU_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(XWFCFX_fake_script)()
+local function XLYR_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 	local req = require
 	local require = function(obj)
@@ -1543,8 +1547,8 @@ local function JCPQOU_fake_script() -- TextLabel.LocalScript
 	
 	script.Parent.Text = "@" .. Username
 end
-coroutine.wrap(JCPQOU_fake_script)()
-local function FJQBHO_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(XLYR_fake_script)()
+local function JXSLF_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 	local req = require
 	local require = function(obj)
@@ -1559,8 +1563,8 @@ local function FJQBHO_fake_script() -- TextLabel_2.LocalScript
 	
 	script.Parent.Text = GetName.Name
 end
-coroutine.wrap(FJQBHO_fake_script)()
-local function SRZPIA_fake_script() -- TextLabel_3.LocalScript 
+coroutine.wrap(JXSLF_fake_script)()
+local function PFPZJQH_fake_script() -- TextLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_3)
 	local req = require
 	local require = function(obj)
@@ -1584,8 +1588,8 @@ local function SRZPIA_fake_script() -- TextLabel_3.LocalScript
 	
 	Type(script.Parent,"Welcome, " .. DisplayUsername,0.05)
 end
-coroutine.wrap(SRZPIA_fake_script)()
-local function QSGQN_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(PFPZJQH_fake_script)()
+local function ZGXHZEZ_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 	local req = require
 	local require = function(obj)
@@ -1611,8 +1615,80 @@ local function QSGQN_fake_script() -- ImageLabel.LocalScript
 	imageLabel.Image = content
 	imageLabel.Size = UDim2.new(0, 100, 0, 100)
 end
-coroutine.wrap(QSGQN_fake_script)()
-local function FGLRY_fake_script() -- Main.LocalScript 
+coroutine.wrap(ZGXHZEZ_fake_script)()
+local function PKAIJ_fake_script() -- Black.Script 
+	local script = Instance.new('LocalScript', Black)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent["Navigation Bar"].BackgroundColor3 = Color3.fromRGB(29, 29, 29)
+		script.Parent.Parent.Parent.Top.BackgroundColor3 = Color3.new(0, 0, 0)
+		script.Parent.Parent.Parent.Parent.Main.BackgroundColor3 = Color3.new(0, 0, 0)
+	end)
+end
+coroutine.wrap(PKAIJ_fake_script)()
+local function ERJE_fake_script() -- Gray.Script 
+	local script = Instance.new('LocalScript', Gray)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent["Navigation Bar"].BackgroundColor3 = Color3.fromRGB(72, 72, 72)
+		script.Parent.Parent.Parent.Top.BackgroundColor3 = Color3.new(0.258824, 0.258824, 0.258824)
+		script.Parent.Parent.Parent.Parent.Main.BackgroundColor3 = Color3.new(0.290196, 0.290196, 0.290196)
+	end)
+end
+coroutine.wrap(ERJE_fake_script)()
+local function GEYHRB_fake_script() -- Yellow.Script 
+	local script = Instance.new('LocalScript', Yellow)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent["Navigation Bar"].BackgroundColor3 = Color3.fromRGB(175, 153, 44)
+		script.Parent.Parent.Parent.Top.BackgroundColor3 = Color3.new(0.701961, 0.643137, 0.196078)
+		script.Parent.Parent.Parent.Parent.Main.BackgroundColor3 = Color3.new(0.701961, 0.643137, 0.196078)
+	end)
+end
+coroutine.wrap(GEYHRB_fake_script)()
+local function LKYWIYT_fake_script() -- Normal.Script 
+	local script = Instance.new('LocalScript', Normal)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent["Navigation Bar"].BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+		script.Parent.Parent.Parent.Top.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+		script.Parent.Parent.Parent.Parent.Main.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+	end)
+end
+coroutine.wrap(LKYWIYT_fake_script)()
+local function SFBRPC_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 	local req = require
 	local require = function(obj)
@@ -1623,6 +1699,7 @@ local function FGLRY_fake_script() -- Main.LocalScript
 		return req(obj)
 	end
 
+	
 	local UserInputService = game:GetService("UserInputService")
 	local t = require(script.Parent.Parent.ModuleScript)
 	t.Notification("Cracked-X has been loaded successfully",4)
@@ -1668,8 +1745,8 @@ local function FGLRY_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FGLRY_fake_script)()
-local function BCIB_fake_script() -- Respawn.Script 
+coroutine.wrap(SFBRPC_fake_script)()
+local function BEXS_fake_script() -- Respawn.Script 
 	local script = Instance.new('LocalScript', Respawn)
 	local req = require
 	local require = function(obj)
@@ -1680,16 +1757,19 @@ local function BCIB_fake_script() -- Respawn.Script
 		return req(obj)
 	end
 
-	module = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+	
 	
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		module = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+		module.Notification("Respawning your character please wait.",4)
 		module.Respawn()
+	
 	end)
 	
 end
-coroutine.wrap(BCIB_fake_script)()
-local function APTQS_fake_script() -- Walkspeedchanger.Script 
+coroutine.wrap(BEXS_fake_script)()
+local function WWNSTS_fake_script() -- Walkspeedchanger.Script 
 	local script = Instance.new('LocalScript', Walkspeedchanger)
 	local req = require
 	local require = function(obj)
@@ -1706,10 +1786,12 @@ local function APTQS_fake_script() -- Walkspeedchanger.Script
 	script.Parent.MouseButton1Click:Connect(function()
 		local walkspeed = script.Parent.Parent.Walkspeed.Text
 		plr.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = tonumber(walkspeed)
+		module = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+		module.Notification("Walkspeed has been changed to "..tostring(walkspeed),4)
 	end)
 end
-coroutine.wrap(APTQS_fake_script)()
-local function TGAKJ_fake_script() -- Sit.Script 
+coroutine.wrap(WWNSTS_fake_script)()
+local function ZMSTX_fake_script() -- Sit.Script 
 	local script = Instance.new('LocalScript', Sit)
 	local req = require
 	local require = function(obj)
@@ -1724,11 +1806,13 @@ local function TGAKJ_fake_script() -- Sit.Script
 	local plr = Players.LocalPlayer
 	
 	script.Parent.MouseButton1Click:Connect(function()
+		module = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+		module.Notification("You have sat on the floor.",4)
 		plr.Character.Humanoid.Sit = true
 	end)
 end
-coroutine.wrap(TGAKJ_fake_script)()
-local function PKXB_fake_script() -- Godmode.Script 
+coroutine.wrap(ZMSTX_fake_script)()
+local function BXXDYNX_fake_script() -- Godmode.Script 
 	local script = Instance.new('LocalScript', Godmode)
 	local req = require
 	local require = function(obj)
@@ -1752,8 +1836,8 @@ local function PKXB_fake_script() -- Godmode.Script
 		end
 	end)
 end
-coroutine.wrap(PKXB_fake_script)()
-local function KNRQJ_fake_script() -- JumpPowerchanger.Script 
+coroutine.wrap(BXXDYNX_fake_script)()
+local function FNPDVW_fake_script() -- JumpPowerchanger.Script 
 	local script = Instance.new('LocalScript', JumpPowerchanger)
 	local req = require
 	local require = function(obj)
@@ -1765,11 +1849,14 @@ local function KNRQJ_fake_script() -- JumpPowerchanger.Script
 	end
 
 	script.Parent.MouseButton1Click:Connect(function()
+	
 		game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid").JumpPower = script.Parent.Parent.jumppower.Text
+		module = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+		module.Notification("Jumppower has been changed to "..tostring(script.Parent.Parent.jumppower.Text),4)
 	end)
 end
-coroutine.wrap(KNRQJ_fake_script)()
-local function AZUYMTW_fake_script() -- Goto.Script 
+coroutine.wrap(FNPDVW_fake_script)()
+local function IJBPOO_fake_script() -- Goto.Script 
 	local script = Instance.new('LocalScript', Goto)
 	local req = require
 	local require = function(obj)
@@ -1785,12 +1872,14 @@ local function AZUYMTW_fake_script() -- Goto.Script
 		local found = mod.findplayer(script.Parent.Parent["Goto player"].Text)
 		if found ~= nil then
 			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players")[found].Character.Head.CFrame
+			module = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
+			module.Notification("Teleported to "..found,4)
 		end
 	end)
 	
 end
-coroutine.wrap(AZUYMTW_fake_script)()
-local function TNRRUX_fake_script() -- AutoRespawn.Script 
+coroutine.wrap(IJBPOO_fake_script)()
+local function VGCIOQE_fake_script() -- AutoRespawn.Script 
 	local script = Instance.new('LocalScript', AutoRespawn)
 	local req = require
 	local require = function(obj)
@@ -1812,8 +1901,8 @@ local function TNRRUX_fake_script() -- AutoRespawn.Script
 		end
 	end)
 end
-coroutine.wrap(TNRRUX_fake_script)()
-local function ZRAV_fake_script() -- Fling.Script 
+coroutine.wrap(VGCIOQE_fake_script)()
+local function TOVHFJU_fake_script() -- Fling.Script 
 	local script = Instance.new('LocalScript', Fling)
 	local req = require
 	local require = function(obj)
@@ -1866,8 +1955,8 @@ local function ZRAV_fake_script() -- Fling.Script
 		end)
 	end)
 end
-coroutine.wrap(ZRAV_fake_script)()
-local function CYKNF_fake_script() -- noclip.Script 
+coroutine.wrap(TOVHFJU_fake_script)()
+local function PXGJ_fake_script() -- noclip.Script 
 	local script = Instance.new('LocalScript', noclip)
 	local req = require
 	local require = function(obj)
@@ -1904,8 +1993,8 @@ local function CYKNF_fake_script() -- noclip.Script
 	end)
 	
 end
-coroutine.wrap(CYKNF_fake_script)()
-local function ZZKPIL_fake_script() -- Rejoin.Script 
+coroutine.wrap(PXGJ_fake_script)()
+local function QHVOR_fake_script() -- Rejoin.Script 
 	local script = Instance.new('LocalScript', Rejoin)
 	local req = require
 	local require = function(obj)
@@ -1921,8 +2010,8 @@ local function ZZKPIL_fake_script() -- Rejoin.Script
 		game:GetService('TeleportService'):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(ZZKPIL_fake_script)()
-local function OGZIRH_fake_script() -- ServerHop.LocalScript 
+coroutine.wrap(QHVOR_fake_script)()
+local function KPHF_fake_script() -- ServerHop.LocalScript 
 	local script = Instance.new('LocalScript', ServerHop)
 	local req = require
 	local require = function(obj)
@@ -1947,8 +2036,8 @@ local function OGZIRH_fake_script() -- ServerHop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OGZIRH_fake_script)()
-local function GIZY_fake_script() -- fly.Script 
+coroutine.wrap(KPHF_fake_script)()
+local function GDNAGZ_fake_script() -- fly.Script 
 	local script = Instance.new('LocalScript', fly)
 	local req = require
 	local require = function(obj)
@@ -2072,8 +2161,8 @@ local function GIZY_fake_script() -- fly.Script
 	end)
 	
 end
-coroutine.wrap(GIZY_fake_script)()
-local function TAVV_fake_script() -- Bring.Script 
+coroutine.wrap(GDNAGZ_fake_script)()
+local function RPPUS_fake_script() -- Bring.Script 
 	local script = Instance.new('LocalScript', Bring)
 	local req = require
 	local require = function(obj)
@@ -2109,14 +2198,10 @@ local function TAVV_fake_script() -- Bring.Script
 					new.Parent = plr.Character
 					plr.Backpack:FindFirstChildOfClass("Tool").Parent = plr.Character
 					repeat
-						print("ho----------------------")
 						wait()
+						c = c+1
 						game:GetService("Players")[found].Character.HumanoidRootPart.CFrame = plr.Character.HumanoidRootPart.CFrame
-						c = c +1
-					until c >700
-					for i =1,5 do
-						plr.Character.HumanoidRootPart.CFrame = lastpos
-					end
+					until c >200 or not plr.Character:FindFirstChildOfClass("Tool")
 					plr.CharacterAdded:Wait():WaitForChild("HumanoidRootPart").CFrame = lastpos
 				end
 			end
@@ -2124,8 +2209,8 @@ local function TAVV_fake_script() -- Bring.Script
 	end)
 	
 end
-coroutine.wrap(TAVV_fake_script)()
-local function XQLRBS_fake_script() -- F3X.Script 
+coroutine.wrap(RPPUS_fake_script)()
+local function ZGIUKYC_fake_script() -- F3X.Script 
 	local script = Instance.new('LocalScript', F3X)
 	local req = require
 	local require = function(obj)
@@ -2141,11 +2226,14 @@ local function XQLRBS_fake_script() -- F3X.Script
 		script.Parent.TextScaled = true
 	end
 	script.Parent.MouseButton1Click:Connect(function()
+	end)
+	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+		wait()
 	end)
 end
-coroutine.wrap(XQLRBS_fake_script)()
-local function RUEC_fake_script() -- Antiafk.Script 
+coroutine.wrap(ZGIUKYC_fake_script)()
+local function YLAKEZ_fake_script() -- Antiafk.Script 
 	local script = Instance.new('LocalScript', Antiafk)
 	local req = require
 	local require = function(obj)
@@ -2169,8 +2257,8 @@ local function RUEC_fake_script() -- Antiafk.Script
 		end
 	end)
 end
-coroutine.wrap(RUEC_fake_script)()
-local function DSCLMOL_fake_script() -- vehiclenoclip.Script 
+coroutine.wrap(YLAKEZ_fake_script)()
+local function BCDAB_fake_script() -- vehiclenoclip.Script 
 	local script = Instance.new('LocalScript', vehiclenoclip)
 	local req = require
 	local require = function(obj)
@@ -2249,8 +2337,8 @@ local function DSCLMOL_fake_script() -- vehiclenoclip.Script
 	end)
 	
 end
-coroutine.wrap(DSCLMOL_fake_script)()
-local function IHXW_fake_script() -- Discord.Script 
+coroutine.wrap(BCDAB_fake_script)()
+local function NQHIFVA_fake_script() -- Discord.Script 
 	local script = Instance.new('LocalScript', Discord)
 	local req = require
 	local require = function(obj)
@@ -2289,8 +2377,8 @@ local function IHXW_fake_script() -- Discord.Script
 		end
 	end)
 end
-coroutine.wrap(IHXW_fake_script)()
-local function KDJCRO_fake_script() -- ViewPlayer.Script 
+coroutine.wrap(NQHIFVA_fake_script)()
+local function JGECS_fake_script() -- ViewPlayer.Script 
 	local script = Instance.new('LocalScript', ViewPlayer)
 	local req = require
 	local require = function(obj)
@@ -2316,8 +2404,8 @@ local function KDJCRO_fake_script() -- ViewPlayer.Script
 		end
 	end)
 end
-coroutine.wrap(KDJCRO_fake_script)()
-local function VKOWQUA_fake_script() -- Creeper.Script 
+coroutine.wrap(JGECS_fake_script)()
+local function PFBDSYG_fake_script() -- Creeper.Script 
 	local script = Instance.new('LocalScript', Creeper)
 	local req = require
 	local require = function(obj)
@@ -2357,8 +2445,8 @@ local function VKOWQUA_fake_script() -- Creeper.Script
 		end
 	end)
 end
-coroutine.wrap(VKOWQUA_fake_script)()
-local function VSXMH_fake_script() -- BH.Script 
+coroutine.wrap(PFBDSYG_fake_script)()
+local function XABVAAL_fake_script() -- BH.Script 
 	local script = Instance.new('LocalScript', BH)
 	local req = require
 	local require = function(obj)
@@ -2382,8 +2470,8 @@ local function VSXMH_fake_script() -- BH.Script
 	
 	
 end
-coroutine.wrap(VSXMH_fake_script)()
-local function EWOXBT_fake_script() -- BlockHead.Script 
+coroutine.wrap(XABVAAL_fake_script)()
+local function WSPR_fake_script() -- BlockHead.Script 
 	local script = Instance.new('LocalScript', BlockHead)
 	local req = require
 	local require = function(obj)
@@ -2403,8 +2491,8 @@ local function EWOXBT_fake_script() -- BlockHead.Script
 	
 	
 end
-coroutine.wrap(EWOXBT_fake_script)()
-local function DDLMWZ_fake_script() -- Print.Script 
+coroutine.wrap(WSPR_fake_script)()
+local function LARVMQY_fake_script() -- Print.Script 
 	local script = Instance.new('LocalScript', Print)
 	local req = require
 	local require = function(obj)
@@ -2419,11 +2507,11 @@ local function DDLMWZ_fake_script() -- Print.Script
 		local TXT = script.Parent.Parent.PrintTXT.Text
 		print(TXT)
 		local e = require(script.Parent.Parent.Parent.Parent.Parent.ModuleScript)
-		e.Notification("Printed the Position Press F9 to view or SHIFT+F9",5)
+		e.Notification("Printed your text! Press F9 to view or SHIFT+F9",5)
 	end)
 end
-coroutine.wrap(DDLMWZ_fake_script)()
-local function CILCTV_fake_script() -- swim.Script 
+coroutine.wrap(LARVMQY_fake_script)()
+local function DJYU_fake_script() -- swim.Script 
 	local script = Instance.new('LocalScript', swim)
 	local req = require
 	local require = function(obj)
@@ -2498,8 +2586,8 @@ local function CILCTV_fake_script() -- swim.Script
 	
 	
 end
-coroutine.wrap(CILCTV_fake_script)()
-local function QAVK_fake_script() -- Esp.Script 
+coroutine.wrap(DJYU_fake_script)()
+local function STTRLF_fake_script() -- Esp.Script 
 	local script = Instance.new('LocalScript', Esp)
 	local req = require
 	local require = function(obj)
@@ -2570,8 +2658,8 @@ local function QAVK_fake_script() -- Esp.Script
 	end)
 	
 end
-coroutine.wrap(QAVK_fake_script)()
-local function RUBQMF_fake_script() -- PrintALLplrs.Script 
+coroutine.wrap(STTRLF_fake_script)()
+local function GADPAJ_fake_script() -- PrintALLplrs.Script 
 	local script = Instance.new('LocalScript', PrintALLplrs)
 	local req = require
 	local require = function(obj)
@@ -2591,8 +2679,8 @@ local function RUBQMF_fake_script() -- PrintALLplrs.Script
 	end)
 	
 end
-coroutine.wrap(RUBQMF_fake_script)()
-local function RLJI_fake_script() -- Reset.Script 
+coroutine.wrap(GADPAJ_fake_script)()
+local function CSFTV_fake_script() -- Reset.Script 
 	local script = Instance.new('LocalScript', Reset)
 	local req = require
 	local require = function(obj)
@@ -2609,8 +2697,8 @@ local function RLJI_fake_script() -- Reset.Script
 		end)
 	end)
 end
-coroutine.wrap(RLJI_fake_script)()
-local function XYKWCPE_fake_script() -- Light.Script 
+coroutine.wrap(CSFTV_fake_script)()
+local function OQXAKB_fake_script() -- Light.Script 
 	local script = Instance.new('LocalScript', Light)
 	local req = require
 	local require = function(obj)
@@ -2648,8 +2736,8 @@ local function XYKWCPE_fake_script() -- Light.Script
 	end)
 	
 end
-coroutine.wrap(XYKWCPE_fake_script)()
-local function HIIROXI_fake_script() -- NoFog.Script 
+coroutine.wrap(OQXAKB_fake_script)()
+local function QCKTFR_fake_script() -- NoFog.Script 
 	local script = Instance.new('LocalScript', NoFog)
 	local req = require
 	local require = function(obj)
@@ -2693,8 +2781,8 @@ local function HIIROXI_fake_script() -- NoFog.Script
 	end)
 	
 end
-coroutine.wrap(HIIROXI_fake_script)()
-local function SBAP_fake_script() -- Day.Script 
+coroutine.wrap(QCKTFR_fake_script)()
+local function ICMFUI_fake_script() -- Day.Script 
 	local script = Instance.new('LocalScript', Day)
 	local req = require
 	local require = function(obj)
@@ -2711,8 +2799,8 @@ local function SBAP_fake_script() -- Day.Script
 		end)
 	end)
 end
-coroutine.wrap(SBAP_fake_script)()
-local function RMQUM_fake_script() -- NIght.Script 
+coroutine.wrap(ICMFUI_fake_script)()
+local function GJRCXR_fake_script() -- NIght.Script 
 	local script = Instance.new('LocalScript', NIght)
 	local req = require
 	local require = function(obj)
@@ -2729,8 +2817,8 @@ local function RMQUM_fake_script() -- NIght.Script
 		end)
 	end)
 end
-coroutine.wrap(RMQUM_fake_script)()
-local function XJXY_fake_script() -- CopyPos.Script 
+coroutine.wrap(GJRCXR_fake_script)()
+local function UIEISPB_fake_script() -- CopyPos.Script 
 	local script = Instance.new('LocalScript', CopyPos)
 	local req = require
 	local require = function(obj)
@@ -2746,14 +2834,14 @@ local function XJXY_fake_script() -- CopyPos.Script
 		local GotPos = mod.GetPosition(script.Parent.Parent.PositionplrTXT.Text,"position")
 		if GotPos ~= nil then
 			local pos = GotPos
-			mod.Notification("Position has been copied to your clipboard",4.5)
+			mod.Notification(" has been copied to your clipboard",4.5)
 			setclipboard(tostring(pos))
 		end
 	end)
 	
 end
-coroutine.wrap(XJXY_fake_script)()
-local function AMLVT_fake_script() -- ScrollingFrame.LocalScript 
+coroutine.wrap(UIEISPB_fake_script)()
+local function KFUQGF_fake_script() -- ScrollingFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame)
 	local req = require
 	local require = function(obj)
@@ -2786,8 +2874,8 @@ local function AMLVT_fake_script() -- ScrollingFrame.LocalScript
 		end
 	end
 end
-coroutine.wrap(AMLVT_fake_script)()
-local function KEXPAZT_fake_script() -- NetBypass.Script 
+coroutine.wrap(KFUQGF_fake_script)()
+local function CLOMYH_fake_script() -- NetBypass.Script 
 	local script = Instance.new('LocalScript', NetBypass)
 	local req = require
 	local require = function(obj)
@@ -2813,8 +2901,42 @@ local function KEXPAZT_fake_script() -- NetBypass.Script
 		end
 	end)
 end
-coroutine.wrap(KEXPAZT_fake_script)()
-local function WZZOEM_fake_script() -- Close.LocalScript 
+coroutine.wrap(CLOMYH_fake_script)()
+local function FQCFT_fake_script() -- Infjump.Script 
+	local script = Instance.new('LocalScript', Infjump)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local plr = game:GetService("Players").LocalPlayer
+	local Players = game:GetService("Players")
+	
+	
+	nn = false
+	script.Parent.MouseButton1Click:Connect(function()
+		if nn == false then
+			nn = true
+			script.Parent.TextStrokeColor3 = Color3.new(0.0156863, 0.827451, 0.0431373)
+			
+		else
+			nn = false
+			script.Parent.TextStrokeColor3 = Color3.new(0.901961, 0, 0.0117647)
+		end
+	end)
+	
+	plr:GetMouse().KeyDown:Connect(function(Key)
+		if nn ==true and Key ==" " then
+			Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid'):ChangeState(3)
+		end
+	end)
+end
+coroutine.wrap(FQCFT_fake_script)()
+local function GEUTJTQ_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 	local req = require
 	local require = function(obj)
@@ -2842,8 +2964,8 @@ local function WZZOEM_fake_script() -- Close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WZZOEM_fake_script)()
-local function NSOJIEU_fake_script() -- ScrollingFrame_2.LocalScript 
+coroutine.wrap(GEUTJTQ_fake_script)()
+local function FLVD_fake_script() -- ScrollingFrame_2.LocalScript 
 	local script = Instance.new('LocalScript', ScrollingFrame_2)
 	local req = require
 	local require = function(obj)
@@ -2888,8 +3010,8 @@ local function NSOJIEU_fake_script() -- ScrollingFrame_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NSOJIEU_fake_script)()
-local function GBUVQ_fake_script() -- Player.LocalScript 
+coroutine.wrap(FLVD_fake_script)()
+local function ETUPOH_fake_script() -- Player.LocalScript 
 	local script = Instance.new('LocalScript', Player)
 	local req = require
 	local require = function(obj)
@@ -2904,136 +3026,8 @@ local function GBUVQ_fake_script() -- Player.LocalScript
 		toclipboard(script.Parent.Text)
 	end)
 end
-coroutine.wrap(GBUVQ_fake_script)()
-local function ROFKJ_fake_script() -- Check.LocalScript 
-	local script = Instance.new('LocalScript', Check)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	local thing = script.Parent.Parent.key
-	local v1 = string
-	local v2 = table
-	Stop = false
-	function swait()
-		game:GetService("RunService").Heartbeat:Wait()
-	end
-	local _3,_4,_5,_6,_8 = v2.concat,v1.char,v2.insert,pairs,v1.reverse
-	
-	
-	local  _8 = string.reverse
-	spawn(function()
-		repeat
-			swait()
-			script.Parent.Parent.Parent.Main.Visible = false
-		until Stop == true
-	end)
-	_7 = {"TABLE_119","TABLE_45","TABLE_49","TABLE_50","TABLE_51","TABLE_45","TABLE_51","TABLE_50","TABLE_49"}
-	local function unc(e)
-		if e then
-			local _2 = {}
-			for i,v in _6(_7) do
-				local _1 = v:gsub("TABLE_","")
-				_5(_2,_4(_1))
-			end
-			return _8(_3(_2))
-		end
-	end
-	script.Parent.MouseButton1Click:Connect(function()
-		if string.lower(thing.Text) == _8(unc(_7)) then 
-			Stop = true
-			script.Parent.Parent:TweenPosition(script.Parent.Parent.Position +UDim2.new(0,0,2,0),"Out","Quart",1)
-			script.Parent.Parent.Parent.Main.Visible = true
-			script.Parent.Parent:Destroy()
-		else
-			thing.Text = "Incorrect! Try again..."
-			wait(1)
-			thing.Text = ""
-		end
-	end)
-	
-end
-coroutine.wrap(ROFKJ_fake_script)()
-local function GVZP_fake_script() -- KeyFrame.LocalScript 
-	local script = Instance.new('LocalScript', KeyFrame)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	script.Parent.Visible = true
-	script.Parent.Parent.Main.Visible = false
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-			
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
-end
-coroutine.wrap(GVZP_fake_script)()
-local function WRRKHQ_fake_script() -- Close_2.LocalScript 
-	local script = Instance.new('LocalScript', Close_2)
-	local req = require
-	local require = function(obj)
-		local fake = fake_module_scripts[obj]
-		if fake then
-			return fake()
-		end
-		return req(obj)
-	end
-
-	End = false
-	script.Parent.MouseButton1Click:Connect(function()
-		if End == false then
-			End = true
-			script.Parent.Parent:Destroy()
-		end
-	end)
-end
-coroutine.wrap(WRRKHQ_fake_script)()
-local function WIFXUG_fake_script() -- Cracked_X.WhiteListAndSetup 
+coroutine.wrap(ETUPOH_fake_script)()
+local function RSTL_fake_script() -- Cracked_X.Setup 
 	local script = Instance.new('LocalScript', Cracked_X)
 	local req = require
 	local require = function(obj)
@@ -3063,12 +3057,22 @@ local function WIFXUG_fake_script() -- Cracked_X.WhiteListAndSetup
 	if not game:GetService("RunService"):IsStudio() then
 		script.Parent.Parent = game.CoreGui
 	end
-	--whitelist
-	if game.Players.LocalPlayer.Name == "897y5v89t7y54vn98" or game.Players.LocalPlayer.Name == "voolmax9" then
-		wait()
-	else
-		script.Parent:Destroy()
-	end
 	
 end
-coroutine.wrap(WIFXUG_fake_script)()
+coroutine.wrap(RSTL_fake_script)()
+local function IUYIGE_fake_script() -- Cracked_X.Load 
+	local script = Instance.new('LocalScript', Cracked_X)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	repeat wait() until game:GetService("Players").LocalPlayer and game:IsLoaded()
+	wait(.5)
+	script.Parent.Main.Visible = true
+end
+coroutine.wrap(IUYIGE_fake_script)()
