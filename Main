@@ -1702,6 +1702,8 @@ local function LXGTH_fake_script() -- Main.LocalScript
 	local UserInputService = game:GetService("UserInputService")
 	local t = require(script.Parent.Parent.ModuleScript)
 	t.Notification("Cracked-X has been loaded successfully",4)
+	wait(4)
+	t.Notification("Warning! This GUI has been discontinued",4)
 	local gui = script.Parent
 	script.Parent.Scripts.Visible = false
 	script.Parent.home.Visible = true
